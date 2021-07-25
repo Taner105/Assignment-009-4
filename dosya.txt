@@ -1,0 +1,10 @@
+sayı = int(input("bir sayı değeri giriniz:"))
+if sayı > 1:
+    for i in range(2,sayı):
+        if (sayı % i) == 0:
+            print(sayı, "Asal sayı değildir.")
+            break
+    else:
+        print(sayı, "Asal sayıdır.")
+else:
+    print(sayı, "Asal sayı değildir.")
